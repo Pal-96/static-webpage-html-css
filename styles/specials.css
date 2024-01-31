@@ -1,0 +1,33 @@
+/* This rule is to display the image and content in single row */
+.specials {
+    display: flex;
+}
+
+/* This rule is to beautify image */
+#specialimg {
+    height: 5in;
+    width: 3.5in;
+    border-top-left-radius: 5cm;
+    border-top-right-radius: 5cm;
+    /* padding-right: 4cm; */
+}
+
+/* This rule is specific to View Packages button */
+#viewpkg1 {
+    background-color: chocolate;
+    border: none;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 6px;
+    font-size: smaller;
+    font-weight: bolder;
+    color: white;}
+
+/* This rule is specific to image caption */
+#caption4 {
+    top: 5%;
+    writing-mode:vertical-lr;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    color: darkgray;
+}

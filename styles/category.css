@@ -1,0 +1,33 @@
+/* This rule is specific to Title */
+.title {
+    text-align: center;
+}
+
+/* This rule is specific to submodule heading of individual pages */
+h5 {
+    color: chocolate;
+    font-family: 'Calibri', sans-serif;
+}
+
+/* This rule is to place the services in single row */
+.bestservices {
+    display: flex;
+}
+
+/* This rule is to display appropriate image sie of the services */
+.service {
+    height: 2cm;
+    color: white;
+    margin-left: 1cm;
+}
+
+/* This rule is to display image caption of the services */
+.servicecap {
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+}
+
+/* This rule is specific to Religious Tours image */
+#reltour {
+    height: 2.8cm;
+}

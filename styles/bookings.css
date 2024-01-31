@@ -1,0 +1,36 @@
+/* This rule is for displaying image and content side by side */
+.bookings {
+    display: flex;
+    padding-left: 150px;
+}
+
+/*  This rule is specific for caption content*/
+.figcaption {
+    float: right;
+    font-family:'Calibri', sans-serif;
+}
+
+/* This rule is specific for booking menu */
+article> .bookfig {
+    margin-left: -1cm;
+    height: 1cm;
+}
+
+/* This rule is specific for image */
+#flightimage {
+    height: 4in;
+    padding-left: 5cm;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 260px; color: #fff;
+    background-image: url('/images/sec5_img1.jpg');
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.bannerimg {
+    width: 12in;
+}
+

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment3</title>
+
+    <!-- Added meta content to improve ranking on search for the web page-->
+    <meta name="description" content="INFO6150 Assignment3">
+
+    <!-- Added extenal css files -->
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/category.css">
+    <link rel="stylesheet" href="styles/specials.css">
+    <link rel="stylesheet" href="styles/bookings.css">
+    <link rel="stylesheet" href="styles/promotion.css">
+</head>
+
+<body>
+    <!-- Home Page: Start -->
+    <!-- Added div elemets to work on home page features-->
+    <div class="homepage">
+
+        <!-- Added header element to display menu items -->
+        <header>
+
+            <!-- Added &nbsp; html entity to create sufficient spaces between the menu items -->
+            <h2 class="header" id="travel">Travel</h2>
+
+            <!-- Added <b> element to bold the menu items -->
+            <a href="assignment2.html" class="header menu">Home</a>
+            <a href="assignment2.html" class="header menu">About</a>
+            <select name="services">
+
+                <!-- Display "Service" by default but not as part of the combobox selection -->
+                <option id="services" value="" disabled selected hidden>Services</option>
+                <option id="services" value="honeymoon">Honeymoon Packages</option>
+                <option id="services" value="tours">Tours Packages</option>
+                <option id="services" value="musical">Musical Events</option>
+                <option id="services" value="build">Build Package</option>
+            </select>
+
+            <a href="assignment2.html" class="header menu">
+                <b>Upcoming Packages</b>
+            </a>
+
+            <!-- Added a navigable button -->
+            <a href=" assignment2.html" class="header menu">
+                <button type="button" id="getintouch">
+                    Get in Touch
+                </button>
+            </a>
+        </header>
+        <br />
+
+        <!-- Left aligned heading -->
+        <h1 id="slogan">No matter where<br />
+            you're going to, we'll<br />
+            take you there
+        </h1>
+
+        <!-- Added form element to accept user inputs-->
+        <form action="assignment2.html" method="GET" class="form">
+
+            <!-- Input field: Where to? -->
+            <!-- Added validation to block numeric values -->
+            <input id="whereto" name="where" placeholder="Where to?" type="text" pattern="[A-Za-z]+"
+                title="Only letters are allowed" required>
+            |&nbsp;&nbsp
+
+            <!-- Input field: Travel Type -->
+            <!-- Added validation for mandatory field -->
+            <select id="typecombo" name="type" required>
+                <option id="traveltype" value="" disabled selected hidden>Travel Type</option>
+                <option id="traveltype" value="vacation">Vacation</option>
+                <option id="traveltype" value="business">Business</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+            <!-- Input field: Duration -->
+            <!-- Added validation for mandatory field -->
+            <select name="duration" required>
+                <option id="duration" value="" disabled selected hidden>Duration</option>
+                <option id="duration" value="val1"> Full Day Tour</option>
+                <option id="duration" value="val1"> Full Day Tour</option>
+                <option id="duration" value="val1"> Half Day Tour</option>
+                <option id="duration" value="val1"> 2-Day Tour</option>
+                <option id="duration" value="val1"> 3-Day Tour</option>
+                <option id="duration" value="val2">Week-long Tour</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <!-- Submit button -->
+            <button type="submit" id="form-submit">Submit</button>
+        </form>
+        <br /><br />
+
+        <!-- Added img element to display image -->
+        <img src="images/sec1_img.png" id="rating">
+        <b id="status">2,500 people booked Tomorrowland Event in last 24 hours</b>
+        <br /><br />
+    </div>
+    <div>
+
+        <!-- Added anchor elements to display hyperlinks -->
+        <a href="assignment2.html">
+
+            <!-- Added img element to display image hyperlinks -->
+            <img src="images/sec1_footer1.png" class="flights">
+        </a>
+        <a href="assignment2.html">
+
+            <!-- Added img element to display image hyperlinks -->
+            <img src="images/sec1_footer2.png" class="flights">
+        </a>
+        <a href="assignment2.html">
+
+            <!-- Added img element to display image hyperlinks -->
+            <img src="images/sec1_footer3.png" class="flights">
+        </a>
+        <a href="assignment2.html">
+
+            <!-- Added img element to display image hyperlinks -->
+            <img src="images/sec1_footer4.png" class="flights">
+        </a>
+        <a href="assignment2.html">
+
+            <!-- Added img element to display image hyperlinks -->
+            <img src="images/sec1_footer5.png" class="flights">
+        </a>
+    </div>
+    <!-- Home Page: End -->
+    <br /><br /><br />
+
+    <!-- Category: Start -->
+    <div class="title">
+        <h5>CATEGORY</h5>
+        <h1>We Offer Best Service</h1>
+    </div>
+
+    <!-- Added a div element with "display" property as flex to display content side by side -->
+    <div class="bestservices">
+
+        <!-- Added space entity to leave margin space from left-->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!-- Added figure elements to display image with caption -->
+        <figure>
+
+            <!-- Added anchor elements to display hyperlinks -->
+            <a href="assignment2.html" class="service">
+
+                <!-- Added img element to display image hyperlinks -->
+                <img src="images/dummy1_sec1.png"> &nbsp;
+            </a>
+
+            <!-- Added image caption -->
+            <figcaption class="servicecap">
+                <b>Guided Tours</b>
+            </figcaption>
+            <br />
+            <figcaption class="servicecap">Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing
+            </figcaption>
+        </figure>
+        <figure>
+
+            <!-- Added anchor elements to display hyperlinks -->
+            <a href="assignment2.html" class="service">
+
+                <!-- Added img element to display image hyperlinks -->
+                <img src="images/sec2_img2.png"> &nbsp;
+            </a>
+
+            <!-- Added image caption -->
+            <figcaption class="servicecap">
+                <b>Best Flights Options</b>
+            </figcaption>
+            <br />
+            <figcaption class="servicecap">Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing </figcaption>
+        </figure>
+        <figure>
+
+            <!-- Added anchor elements to display hyperlinks -->
+            <a href="assignment2.html" class="service">
+
+                <!-- Added img element to display image hyperlinks -->
+                <img id="reltour" src="images/sec2_img3.png"> &nbsp;
+            </a>
+
+            <!-- Added image caption -->
+            <figcaption class="servicecap">
+                <b>Religious Tours</b>
+            </figcaption>
+            <br />
+            <figcaption class="servicecap">Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing </figcaption>
+        </figure>
+        <figure>
+
+            <!-- Added anchor elements to display hyperlinks -->
+            <a href="assignment2.html" class="service">
+
+                <!-- Added img element to display image hyperlinks -->
+                <img id="reltour" src="images/sec2_img4.png"> &nbsp;
+            </a>
+
+            <!-- Added image caption -->
+            <figcaption class="servicecap">
+                <b>Medical Insurance</b>
+            </figcaption>
+            <br />
+            <figcaption class="servicecap">Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing </figcaption>
+        </figure>
+    </div>
+    <!-- Category: End -->
+
+    <br /><br /><br /><br /><br /><br /><br />
+
+    <!-- Honeymoon Specials: Start -->
+    <!-- Added a parent div element-->
+    <div class="specials">
+
+        <!-- Added space entity to leave margin space from left-->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p id="caption4">
+            Honeymoon Packages
+        </p>
+        <img src="images/sec3_img1.jpg" id="specialimg">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!-- Added article element -->
+        <article>
+            <h5>HONEYMOON SPECIALS</h5>
+            <h1>Our Romantic Tropical <br /> Destinations</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+                Sed do eiusmod tempor incididunt ut labore <br />
+                et dolore magna aliqua.
+            </p>
+
+            <!-- Added an anchor element to create navigable button-->
+            <a href="assignment2.html">
+                <button type="submit" id="viewpkg1">
+                    View Packages
+                </button>
+            </a>
+        </article>
+    </div>
+    <!-- Honeymoon Specials: End -->
+
+    <br /><br /><br /><br /><br />
+
+    <!-- Resort Bookings: Start -->
+    <!-- Added a parent div element with "display" property as flex to display image and content side by side -->
+    <div class="bookings">
+        <!-- Added section element -->
+        <section>
+            <h5>Fast & Easy</h5>
+            <h1>Get Your Favourite <br />
+                Resort Bookings </h1>
+
+            <!-- Added articles to display independent modules -->
+            <article>
+
+                <!-- Added archor element to display hyperlinks -->
+                <figure>
+
+                    <!-- Added anchor elements to display hyperlinks -->
+                    <a href="assignment2.html">
+                        <img src="images/sec4_img1.png" class="bookfig">
+                    </a>
+
+                    <!-- Added image caption -->
+                    <figcaption class="figcaption">
+                        <b>Choose Destination</b>
+                        <br />
+                        Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing
+                    </figcaption>
+                </figure>
+            </article>
+            <br />
+            <article>
+                <figure>
+
+                    <!-- Added anchor elements to display hyperlinks -->
+                    <a href="assignment2.html">
+                        <img src="images/sec4_img2.png" class="bookfig">
+                    </a>
+
+                    <!-- Added image caption -->
+                    <figcaption class="figcaption">
+                        <b>Check Availability</b>
+                        <br />
+                        Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing
+                    </figcaption>
+                </figure>
+            </article>
+            <br />
+            <article>
+                <figure>
+
+                    <!-- Added anchor elements to display hyperlinks -->
+                    <a href="assignment2.html">
+                        <img src="images/sec4_img3.png" class="bookfig">
+                    </a>
+
+                    <!-- Added image caption -->
+                    <figcaption class="figcaption">
+                        <b>Let's Go</b>
+                        <br />
+                        Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing
+                    </figcaption>
+                </figure>
+            </article>
+            <br />
+        </section>
+
+        <!-- Added space entity to display space betwwen content and image
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+        <img src="images/sec4_img4.png" id="flightimage">
+    </div>
+    <!-- Resort Bookings: End -->
+
+    <br /><br />
+
+    <div class="banner">
+        <h1>Let's Make Your <br />
+            Next Holiday Amazing</h1>
+
+    </div>
+    <br /><br />
+
+    <!-- PROMOTION: Start -->
+    <!-- Added a div element with "display" property as flex to display image and content side by side -->
+    <div class="container">
+        <div class="item1">
+            <div class="promotion1">
+                <!-- Added article element -->
+                <article>
+                    <h5>PROMOTION</h5>
+                    <h1 id="heading">We Provide You Best<br />
+                        Europe Sightseeing Tours</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Sed do eiusmod tempor. <br />
+                        Lorem ipsum dolor sit amet, ipsum dolor sit amet, consectetur adipiscing
+                        Sed do eiusmod tempor<br />
+                        .
+                    </p>
+
+                    <!-- Added archor element to display navigable button -->
+                    <a href="assignment2.html">
+                        <button type="button" id="viewpkg1">View Packages</button>
+                    </a>
+                    <br /><br />
+                </article>
+            </div>
+
+            <div class="promotion2">
+                <!-- Added archor element to display navigable image -->
+                <a href="assignment2.html"><img src="images/sec6_img2.png" class="packages"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <!-- Added archor element to display navigable image -->
+                <a href="assignment2.html"><img src="images/sec6_img3.png" class="packages"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <!-- Added archor element to display navigable image -->
+                <a href="assignment2.html"><img src="images/sec6_img4.png" class="packages"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <!-- Added archor element to display navigable image -->
+                <a href="assignment2.html"><img src="images/sec6_img5.png" class="packages"></a>
+
+            </div>
+        </div>
+
+        <div class="item2">
+            <figure>
+                <img src="images/sec6_img1.jpg" id="promoimg1">
+
+                <p id="caption1">
+                    Breath Taking Views
+
+                </p>
+            </figure>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <!-- Added a div element with "display" property as flex to display images and content side by side -->
+    <div class="promotion4">
+
+        <!-- Added space entity to leave margin space from left-->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div id="expnature">
+            <article>
+                <h4>PROMOTION</h4>
+                <h1>Explore Nature</h1>
+                <a href="assignment2.html">
+                    <button type="button" id="viewpkg2">View Packages</button>
+                </a>
+            </article>
+        </div>
+        <div id="expcities">
+            <article>
+                <h4>PROMOTION</h4>
+                <h1>Explore Cities</h1>
+                <a href="assignment2.html">
+                    <button type="button" id="viewpkg2">View Packages</button>
+                </a>
+            </article>
+        </div>
+    </div>
+    <br /><br />
+
+    <!-- Trendy Tour packages: Start -->
+    <div class="title">
+        <h5>TRENDY</h5>
+        <h1>Our Trending Tour<br />
+            Packages</h1>
+    </div>
+
+
+    <!-- Added a div element with "display" property as flex to display images and content side by side -->
+    <div class="tourpackages">
+        <figure>
+            <img src="images/sec8_img1.png" class="pkgimg">
+
+            <!-- Added image caption -->
+            <figcaption id="caption2">
+                <img src="images/calendar.png" class="icon">&nbsp; 8 Days
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="images/ppl.png" class="icon">&nbsp; 25 people going
+                <section>
+                    <div id="pkgdest">Switzerland &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        <img src="images/sec8_img5.png" id="rating"><br />
+                    </div>
+
+                    <div id="caption3"><img src="images/sec8_img4.png" id="loc1">Europe
+                    </div>
+
+                    <!-- Added <s> element to display discontinued amount -->
+                    <div id="pkgdest" class="currentprice">2,000$ &nbsp; <s id="discarded">3000$</s></div>
+                    <p>Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing. Sed do eiusmod <br />
+                        tempor incididunt ut labore et dolore <br />
+                        magna aliqua.
+                    </p><br />
+
+                    <!-- Added a navigable button -->
+                    <a href="assignment2.html">
+                        <button type="button" id="viewpkg1">Explore Now</button>
+                    </a>
+                </section>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="images/sec8_img2.png" class="pkgimg">
+
+            <!-- Added image caption -->
+            <figcaption id="caption2">
+                <img src="images/calendar.png" class="icon">&nbsp; 8 Days
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="images/ppl.png" class="icon">&nbsp; 30 people going
+                <section>
+                    <div id="pkgdest">Amazon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;
+                        <img src="images/sec8_img5.png" id="rating"><br />
+                    </div>
+                    <div id="caption3"><img src="images/sec8_img4.png" id="loc1">Brazil
+                    </div>
+
+                    <!-- Added <s> element to display discontinued amount -->
+                    <div id="pkgdest" class="currentprice">1,500$ &nbsp; <s id="discarded">1800$</s></div>
+                    <p>Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing. Sed do eiusmod <br />
+                        tempor incididunt ut labore et dolore <br />
+                        magna aliqua.
+                    </p><br />
+
+                    <!-- Added a navigable button -->
+                    <a href="assignment2.html">
+                        <button type="button" id="viewpkg1">Explore Now</button>
+                    </a>
+
+                </section>
+
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="images/sec8_img3.png" class="pkgimg">
+
+            <!-- Added image caption -->
+            <figcaption id="caption2">
+                <img src="images/calendar.png" class="icon">&nbsp; 8 Days
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="images/ppl.png" class="icon">&nbsp; 155 people going
+                <section>
+                    <div id="pkgdest">Giza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/sec8_img5.png" id="rating"><br />
+                    </div>
+                    <div id="caption3"><img src="images/sec8_img4.png" id="loc1">Egypt
+                    </div>
+
+                    <!-- Added <s> element to display discontinued amount -->
+                    <div id="pkgdest" class="currentprice">1,000$ &nbsp; <s id="discarded">1700$</s></div>
+                    <p>Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing. Sed do eiusmod <br />
+                        tempor incididunt ut labore et dolore <br />
+                        magna aliqua.
+                    </p><br />
+
+                    <!-- Added a navigable button -->
+                    <a href="assignment2.html">
+                        <button type="button" id="viewpkg1">Explore Now</button>
+                    </a>
+                </section>
+            </figcaption>
+        </figure>
+    </div>
+    <!-- Trendy Tour packages: End -->
+
+    <!-- Client review and footer: Start-->
+    <div id="margin" class="reviewbkg">
+        <div class="title2">
+            <h5>PROMOTION</h5>
+            <h1>See What Our Clients Say<br />
+                About Us</h1>
+        </div>
+
+        <div class="container2">
+            <div>
+                <img src="images/profilepic.png" id="profile1">
+            </div>
+            <div class="container3">
+                <a href="assignment3.html">
+                    <img src="images/profileleft.png" id="profileleft"> </a>
+                <div class="review1">
+                    <h4>"Lorem ipsum dolor sit amet, <br />
+                        consectetur adipiscing. Sed do eiusmod <br />
+                        tempor incididunt ut labore et dolore <br />
+                        magna aliqua."
+                        <br /><br />
+                        <b>Christine Beckam - Designer</b>
+                    </h4>
+                </div>
+                <a href="assignment3.html">
+                    <img src="images/profileright.png" id="profile1">
+                </a>
+            </div>
+        </div>
+
+        <!-- Added a footer element -->
+        <footer id="margin2">
+
+            <!-- Added a div element with "display" property as flex to display the contents side by side -->
+            <div id="footer">
+
+                <!-- Added space entity to leave margin space from left-->
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
+                <div>
+                    <h2 id="travel">Travel</h2>
+                    Travel helps companies<br />
+                    manage payments easily
+                    <br /><br />
+                    <a href="assignment2.html" class="ref">
+                        <img src="images/sec9_img3.png" class="footimg">
+                    </a>&nbsp;
+                    <a href="assignment2.html" class="ref">
+                        <img src="images/sec9_img4.png" class="footimg">
+                    </a>&nbsp;
+                    <a href="assignment2.html" class="ref">
+                        <img src="images/sec9_img5.png" class="footimg">
+                    </a>&nbsp;
+                    <a href="assignment2.html" class="ref">
+                        <img src="images/sec9_img6.png" class="footimg">
+                    </a>&nbsp;
+                </div>
+
+                <!-- Added space entity to leave space between subparts of footer-->
+
+                <div id="company">
+                    <h3>Company</h3>
+                    <a href="assignment2.html" class="ref">About us</a> <br />
+                    <a href="assignment2.html" class="ref"> Careers</a> <br />
+                    <a href="assignment2.html" class="ref">Blog</a> <br />
+                    <a href="assignment2.html" class="ref">Pricing</a>
+                </div>
+
+                <!-- Added space entity to leave space between subparts of footer-->
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div>
+                    <h3>Destinations</h3>
+                    <a href="assignment2.html" class="ref">Maldives</a> <br />
+                    <a href="assignment2.html" class="ref"> Angeles</a> <br />
+                    <a href="assignment2.html" class="ref">Las Vegas</a> <br />
+                    <a href="assignment2.html" class="ref">Torronto</a>
+                </div>
+
+                <!-- Added space entity to leave space between subparts of footer-->
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div>
+                    <h3>Join Our Newsletter</h3><br />
+
+                    <!-- Added a form to accept user input -->
+                    <form id="form" action="assignment2.html" method="GET">
+                        <address>
+
+                            <!-- Added email validation -->
+                            <input id="email" name="email" type="email" placeholder="Your email address" required>
+                            <button type="submit" id="viewpkg1">Subscribe</button>
+                        </address>
+                        <br />
+                        * Will send you weekly updates for your<br />
+                        better tour packages
+                    </form>
+                </div>
+            </div>
+            <img id="line" src="images/sec9_img2.png">
+            <p id="copyrghttext">Copyright @ Xpro 2022. All Rights Reserved</p>
+            <br />
+        </footer>
+    </div>
+    <!-- Client review and footer: End-->
+    <!-- PROMOTION: End -->
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+/* This rule is for Sightseeing article     */
+.promotion1 {
+    display: flex;
+    padding-left: 120px;
+
+}
+
+/* This rule is for vertically up image caption */
+#promoimg1 {
+        height: 5in;
+        border-top-left-radius: 5cm;
+        border-top-right-radius: 5cm;
+}
+
+/* This rule is to display all the pacakges in single row  */
+.promotion2 {
+    display: flex;
+
+}
+
+/* This rule is to correct the allignment of each package image */
+.packages {
+    height: 4cm;
+    width: 4cm;
+    border-radius: 0.5cm;
+    position: relative;
+    left: 120px;
+}
+
+/* This rule is to display package images and main image side by side using grid */
+ .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1cm;
+    position: absolute;
+    height: 5in;
+
+}
+
+/* This rule applies to all h1 elements */
+h1 {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* This rule is to align caption of main image */
+#caption1 {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    writing-mode:vertical-rl;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    color: darkgray;
+}
+
+/* This rule is specific to explore nature section */
+#expnature {
+    background-image: url(/images/sec7_img1.jpg) ; 
+    background-position: right; 
+    height: 250px; 
+    width: 550px;
+    background-size: cover; 
+    color: #fff;
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+
+}
+
+/* This rule is specific to explore cities section */
+#expcities {
+    background-image: url(/images/sec7_img2.jpg) ; 
+    background-position: right; 
+    height: 250px; 
+    width: 550px;
+    background-size: cover; 
+    color: #fff;
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+}
+
+/* This rule is to display explore images and respective content in single row side by side */
+.promotion4 {
+    font-size: large;
+    display: flex;
+    margin-top: 500px;
+
+}
+
+/* This ruke is to display button */
+#viewpkg2 {
+    background-color: transparent;
+    border-color: white;
+    height: 1cm;
+    border-radius: 6px;
+    color: white;
+    font-weight: bolder;}
+
+/* This rule is to set the font and color of tour package captions  */
+#caption2 {
+    font-family: 'Calibri',sans-serif;
+    font-size: small;
+    color: black;
+}
+
+/* To display tour packages in single row  */
+.tourpackages {
+    display: flex;
+    margin-left: 2.5cm;
+}
+
+/* To display destination of the tour package */
+#pkgdest {
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+/* To display location text */
+#caption3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: darkgray;
+}
+
+/* To display location image */
+#loc1 {
+    height: 0.4cm; 
+    width:50px;
+    padding-top: 2%;
+}
+
+/* To display rating start image */
+#rating {
+    height: 0.4cm;
+}
+
+/* To display discarded tour package amount */
+#discarded {
+    color: grey;
+}
+
+/* To display current tour package amount */
+.currentprice {
+    color: chocolate;
+}
+
+/* To leave margin space above client review section */
+#margin {
+    margin-top:80px;
+}
+
+/* To leave margin space above footer */
+#margin2
+{
+    margin-top: 450px;
+}
+
+/* To display footer content in single row */
+#footer {
+    display: flex;
+    font-family: 'Calibri',sans-serif;
+}
+
+#email {
+    color: black;
+    font-size: small;
+    height: 0.8cm;
+}
+
+#form {
+    margin-top: -0.5cm;
+}
+
+#travel {
+    font-size: xx-large;
+    margin-top: 0cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* To remove hyperlink underline from texts */
+.ref {
+    text-decoration: none;
+    color: black;
+    font-family: 'Calibri',sans-serif;
+}
+
+/* To display contact icons */
+.footimg {
+    height: 0.5cm;
+}
+
+/* To correct the size of tour package images */
+.pkgimg {
+    height: 6cm;
+}
+
+/* To align the Copyright text */
+#copyrghttext {
+    text-align: center;
+    font-family: 'Calibri',sans-serif;
+}
+
+/* To align the client review section title */
+.title2 {
+    padding-top: 0.5in;
+    text-align: center;
+    
+}
+
+/* To add a background color */
+.reviewbkg {
+    background-color: rgba(252, 249, 249, 0.783); 
+    height: 6in;
+
+}
+
+/* To align the review message box */
+.review1 {
+    background-color: white;
+    border-radius: 1cm;
+    height: 5cm;
+    width: 5in;
+    text-align: center;
+    margin-left: 0.3in;
+    padding-top: 1cm;
+    font-family: Calibri, sans-serif;
+}
+
+/* To display profile pic and review message box one below other in single column */
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 1in;
+  }
+
+  /* To display profile pic */
+  #profile1 {
+    height: 2cm;
+  }
+
+  /* To display left arrow */
+  #profileleft {
+    height: 2cm;
+    padding-left: 7cm;
+  }
+
+  /* To display review section and two arrows in single row, 3 columns*/
+  .container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    row-gap: 0.1mm;
+  }
+
+  /* This rule is specific for displaying calendar and people icon below tour packages */
+  .icon {
+    height: 5mm;
+  }
+
+  #line {
+    padding-left: 3cm;
+    width: 1000px;
+  }
+
+  #company {
+    margin-left: -1cm;
+  }

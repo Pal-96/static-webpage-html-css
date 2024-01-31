@@ -1,0 +1,145 @@
+.homepage {
+    background-size: cover;
+    background-position: center;
+    height: 550px; color: #fff;
+    background-image: url('/images/sec1_backimg.jpg');
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.header {
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+/* This rule is specific to Travel text */
+#travel {
+    margin-right: 3in;
+}
+
+/* This rule is specific to menu Items - Home, About, Services, Upcoming Packages */
+.menu {
+    font-size: small;
+    font-family: 'Calibri', sans-serif;
+    border: none;
+    font-weight: bolder;
+    margin-right: 5mm;
+}
+
+/* This rule is specific to "Get In Touch" button */
+#getintouch {
+    background-color: chocolate;
+    border: none;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 6px;
+    color: white;
+    font-size: smaller;
+    margin-left: 1in;
+}
+
+/* This rule is specific to all select elements */
+select {
+    border: none;
+    background: transparent;
+    color: white;
+    width: 2cm;
+    font-size: small;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bolder
+}
+
+/* This rule is specific to Services dropdown in menu */
+#services {
+    color: black;
+    font-size: small;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bolder
+}
+
+/* This rule is specific to website slogan */
+#slogan {
+    font-family: 'Calibri', sans-serif;
+    font-size: xxx-large;
+}
+
+/* This rule is specific to form element */
+.form {
+    background:rgba(128, 128, 128, 0.505);
+    width: 17cm;
+    height: 1.5cm;
+    text-align: center;
+    padding-top: 11px;
+}
+
+/* This rule is specific to placeholder of "Where To" field in form */
+input::placeholder {
+    color: white;
+    font-size: small;
+}
+
+/* This rule is specific to text message in "Where To" field */
+#whereto {
+    background: none;
+    border: none;
+    padding-top: 17px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-right: 2mm;
+    font-family: 'Calibri', sans-serif;
+}
+
+/* This rule is specific to Travel Type combobox */
+#typecombo {
+    width: 3cm;
+    font-size: small;
+}
+
+/* This rule is specific to Travel Type combobox values */
+#traveltype {
+    font-size: small;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+/* This rule is specific to Duration combobox values */
+#duration {
+    font-size: small;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+/* This rule is specific to form Submit button */
+#form-submit{
+    background-color: chocolate;
+    border: none;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 6px;
+    color: white;
+    font-weight: bolder;
+}
+
+/* This rule is specific to image in rating section */
+#rating {
+    width: 1in;
+}
+
+/* This rule is specific to current booking status text */
+#status {
+    font-family: 'Calibri', sans-serif;
+    font-size: smaller;
+}
+
+/* This rule is specific to footer section of HomePage with flights */
+.flights {
+    height: 17ch; 
+    width: 29.5ch;
+    background-color: #d1cfcf00;
+    
+
+}
